@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-text-fill: #212121;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #212121;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 2px;
+}
+
+.radio-button .dot {
+    -fx-background-image: null;
+    -fx-background-radius: 15px;
+    -fx-padding: 6px;
+}
+
+.invalid {
+    -fx-background-color: #f45042;
+}
+
+.valid {
+    -fx-background-color: #42f450;
+}
